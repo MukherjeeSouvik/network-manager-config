@@ -1,2 +1,6 @@
+
 plan:
+  uri : http://localhost:8110/plans/
+
+call-detail :
   uri : http://localhost:8110/plans/
