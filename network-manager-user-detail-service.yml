@@ -1,6 +1,17 @@
 
-plan:
-  uri: http://localhost:8110/plans/
+#plan:
+#  uri: http://localhost:8110/plans/
 
-call-detail:
-  uri: http://localhost:8100/call-details/
+#call-detail:
+#  uri: http://localhost:8100/call-details/
+
+hystrix:
+  command:
+    default:
+      circuitBreaker:
+        requestVolumeThreshold: 4
+        errorThresholdPercentage: 50
+        sleepWindowInMilliseconds: 60000
+      metrics:
+        rollingStats:
+          timeInMilliseconds: 10000
