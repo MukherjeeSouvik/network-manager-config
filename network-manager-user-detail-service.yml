@@ -3,7 +3,7 @@
 #  uri: http://localhost:8110/plans/
 
 #call-detail:
-#  uri: http://localhost:8100/call-details/
+#  uri: http://localhost:8100/users/
 
 #network-manager-user-details-ribbon : 
 #  ribbon :
